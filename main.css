@@ -1,0 +1,35 @@
+body {
+  background: #01799c;
+}
+.calculator {
+  background: #b8bab5;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 15px rgb(0, 34, 36);
+}
+.handle {
+  background: #01799c;
+  margin: 15px auto 0px;
+  width: 240px;
+  height: 80px;
+  border-radius: 30px;
+  box-shadow: inset 0px -10px 5px 7px rgba(0, 27, 38, .7);
+}
+.output {
+  background: #02151b;
+  margin-top: 15px; 
+  width: 300px;
+  height: 110px;
+}
+.digits {
+  font-size: 35px;
+  margin: 15px 15px 15px 15px;
+  font-family: "SF Digital Readout Heavy";
+  color: rgb(0, 255, 234);
+  text-shadow: 3px 3px 7px rgba(0, 255, 234, .7);
+}
+@font-face {
+  font-family: "SF Digital Readout Heavy";
+  src: url("SFDigitalReadout-Heavy.ttf") format('truetype');
+}
