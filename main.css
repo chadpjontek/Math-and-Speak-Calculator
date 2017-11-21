@@ -172,4 +172,8 @@ body {
 /* @font-face {
   font-family: "SF Digital Readout Heavy";
   src: url("https://rawgit.com/chadpjontek/JavaScript-Calculator/master/SFDigitalReadout-Heavy.ttf?raw=true") format('truetype');
+}
+@font-face {
+  font-family: "AmericanTypewriter Bold";
+  src: url("https://rawgit.com/chadpjontek/JavaScript-Calculator/master/AmericanTypewriter_Bold.ttf?raw=true") format('truetype'); 
 } */
