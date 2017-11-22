@@ -38,11 +38,15 @@ body {
   box-shadow: 0px 5px 15px 3px #3e4946;
 }
 .digits {
-  font-size: 35px;
-  margin: 15px 15px 15px 15px;
+  font-size: 40px;
+  padding-top: 3px;
+  margin-right: 30px; 
   font-family: "SF Digital Readout Heavy";
   color: rgb(0, 255, 234);
   text-shadow: 3px 3px 7px rgba(0, 255, 234, .7);
+}
+#chained-output {
+  font-size: 20px;
 }
 .input {
   background: #034669;
@@ -103,11 +107,29 @@ body {
   border: 5px solid #fb5b4a;
   color: #034669;
   background: #b8bab5;
+  transition: all ease 0.3s;
 }
 .numpad-btns {
   border: 5px solid #034669;
   color: #034669;
   background: #4fbffb;
+  transition: all ease 0.2s;
+}
+.menu-btns:hover { 
+  background: #4fbffb;
+}
+.menu-btns:active { 
+  background: #034669;
+  border: 5px solid #4fbffb;
+  color: #fb5b4a;
+}
+.numpad-btns:hover { 
+  background: #fb5b4a;
+}
+.numpad-btns:active { 
+  background: #034669;
+  border: 5px solid #fb5b4a;
+  color: #4fbffb;
 }
 .logo-html {
   font-family: "AmericanTypewriter Bold";

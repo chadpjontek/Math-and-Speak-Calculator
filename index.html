@@ -13,6 +13,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
   <div class="container">
     <div class="row d-flex justify-content-center mt-5">
@@ -66,8 +67,13 @@
               <div class="grill-wide" style="width: 15px;"></div>
             </div>
           </div>
-          <div class="digits">
-            01134
+          <div class="d-inline-flex align-items-end flex-column">
+            <div class="row text-right">
+              <div id="current-output" class="digits">0</div>
+            </div>
+            <div class="row text-right">
+              <div id="chained-output" class="digits">0</div>
+            </div>
           </div>
         </div>
         <div class="input mt-3 mx-auto">
@@ -76,16 +82,16 @@
               <a class="btn menu-btns" href="http://www.datamath.org/Speech/Images/SpeaknMath_2.jpg" target="_blank">//</a>
             </div>
             <div class="numpad numpad-far-left-keys numpad-top">
-              <button class="btn numpad-btns">7</button>
+              <button id="7" class="btn numpad-btns">7</button>
             </div>
             <div class="numpad numpad-mid-left-keys numpad-top">
-              <button class="btn numpad-btns">8</button>
+              <button id="8" class="btn numpad-btns">8</button>
             </div>
             <div class="numpad numpad-mid-right-keys numpad-top">
-              <button class="btn numpad-btns">9</button>
+              <button id="9" class="btn numpad-btns">9</button>
             </div>
             <div class="numpad numpad-far-right-keys numpad-top">
-              <button class="btn numpad-btns">&divide;</button>
+              <button id="divide" class="btn numpad-btns">&divide;</button>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
@@ -93,16 +99,16 @@
               <a class="btn menu-btns popup" href="https://youtu.be/lnXNm4hfrWs" target="_blank">&gt;</a>
             </div>
             <div class="numpad numpad-far-left-keys">
-              <button class="btn numpad-btns">4</button>
+              <button id="4" class="btn numpad-btns">4</button>
             </div>
             <div class="numpad numpad-mid-left-keys">
-              <button class="btn numpad-btns">5</button>
+              <button id="5" class="btn numpad-btns">5</button>
             </div>
             <div class="numpad numpad-mid-right-keys">
-              <button class="btn numpad-btns">6</button>
+              <button id="6" class="btn numpad-btns">6</button>
             </div>
             <div class="numpad numpad-far-right-keys">
-              <button class="btn numpad-btns">X</button>
+              <button id="multiply" class="btn numpad-btns">X</button>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
@@ -110,33 +116,35 @@
               <a class="btn menu-btns" href="https://en.wikipedia.org/wiki/Speak_%26_Math" target="_blank">&lt;</a>
             </div>
             <div class="numpad numpad-far-left-keys">
-              <button class="btn numpad-btns">1</button>
+              <button id="1" class="btn numpad-btns">1</button>
             </div>
             <div class="numpad numpad-mid-left-keys">
-              <button class="btn numpad-btns">2</button>
+              <button id="2" class="btn numpad-btns">2</button>
             </div>
             <div class="numpad numpad-mid-right-keys">
-              <button class="btn numpad-btns">3</button>
+              <button id="3" class="btn numpad-btns">3</button>
             </div>
             <div class="numpad numpad-far-right-keys">
-              <button class="btn numpad-btns">-</button>
+              <button id="subtract" class="btn numpad-btns">-</button>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
             <div class="numpad-bottom menu-keys">
-              <button class="btn menu-btns">C</button>
+              <button id="c" class="btn menu-btns">C</button>
             </div>
             <div class="numpad numpad-far-left-keys numpad-bottom">
-              <button class="btn numpad-btns">0</button>
+              <button id="0" class="btn numpad-btns">0</button>
             </div>
             <div class="numpad numpad-mid-left-keys numpad-bottom">
-              <button class="btn numpad-btns">.</button>
+              <button id="point" class="btn numpad-btns">.</button>
             </div>
             <div class="numpad numpad-mid-right-keys numpad-bottom">
-              <button class="btn numpad-btns">&#10055;</button>
+              <button class="btn numpad-btns">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+              </button>
             </div>
             <div class="numpad numpad-far-right-keys numpad-bottom">
-              <button class="btn numpad-btns">+</button>
+              <button id="add" class="btn numpad-btns">+</button>
             </div>
           </div>
           <div class="row d-flex justify-content-center">
