@@ -50,7 +50,7 @@ function displayChainOutput(op) {
   playSound(op);
 }
 function getTotal() {
-  total = Math.round(eval(inputArr.join('')) * 10000) / 10000;
+  total = Math.round(eval(inputArr.join('')) * 1000) / 1000;
 }
 function addDecimal() {
   inputArr.push(".");
