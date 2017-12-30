@@ -6,7 +6,8 @@ body {
   width: 300px;
   height: 500px;
   border-radius: 20px;
-  box-shadow: 0px -8px 5px rgba(0, 27, 38, .7);
+  -webkit-box-shadow: 0px -8px 5px rgba(0, 27, 38, .7);
+          box-shadow: 0px -8px 5px rgba(0, 27, 38, .7);
 }
 .handle {
   background: #01799c;
@@ -14,7 +15,8 @@ body {
   width: 240px;
   height: 60px;
   border-radius: 30px;
-  box-shadow: inset 0px -10px 5px 7px rgba(0, 27, 38, .7);
+  -webkit-box-shadow: inset 0px -10px 5px 7px rgba(0, 27, 38, .7);
+          box-shadow: inset 0px -10px 5px 7px rgba(0, 27, 38, .7);
 }
 .output {
   background: #02151b;
@@ -30,12 +32,14 @@ body {
 .grill-wide {
   background: #02151b;
   height: 4px;
-  box-shadow: 0px 5px 8px 0px #3e4946;
+  -webkit-box-shadow: 0px 5px 8px 0px #3e4946;
+          box-shadow: 0px 5px 8px 0px #3e4946;
 }
 .grill-narrow {
   height: 10px;
   background: #02151b;
-  box-shadow: 0px 5px 15px 3px #3e4946;
+  -webkit-box-shadow: 0px 5px 15px 3px #3e4946;
+          box-shadow: 0px 5px 15px 3px #3e4946;
 }
 .digits {
   font-size: 40px;
@@ -53,7 +57,8 @@ body {
   width: 270px;
   height: 260px;
   border-radius: 20px;
-  box-shadow: 1px 2px 1px 1px #3c413b;
+  -webkit-box-shadow: 1px 2px 1px 1px #3c413b;
+          box-shadow: 1px 2px 1px 1px #3c413b;
 }
 .numpad {
   background: #b8bab5;
@@ -107,12 +112,16 @@ body {
   border: 5px solid #fb5b4a;
   color: #034669;
   background: #b8bab5;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 .numpad-btns {
   border: 5px solid #034669;
   color: #034669;
   background: #4fbffb;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
 .menu-btns:hover { 
